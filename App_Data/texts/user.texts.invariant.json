@@ -1,0 +1,7 @@
+{
+  "Forms.Membership.Login.FormTitle": "Welcome to Invoice Multitenant Platform",
+  "Forms.Membership.ResetPassword.EmailSubject": "Reset your SaaS Invoice Password",
+  "Forms.Membership.SignUp.ActivateEmailSubject": "Activate your SaaS Invoice Account",
+  "Forms.Membership.SignUp.FormTitle": "Sign up for SaaS Invoice",
+  "Navigation.SiteTitle": "SaaS Invoice"
+}

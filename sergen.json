@@ -1,0 +1,178 @@
+{
+  "RootNamespace": "Indotalent",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Bill",
+          "Identifier": "Bill",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:Bill"
+        },
+        {
+          "Tablename": "dbo.BillDetail",
+          "Identifier": "BillDetail",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:Bill"
+        },
+        {
+          "Tablename": "dbo.BillPayment",
+          "Identifier": "BillPayment",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:BillPayment"
+        },
+        {
+          "Tablename": "dbo.Brand",
+          "Identifier": "Brand",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Brand"
+        },
+        {
+          "Tablename": "dbo.CashBank",
+          "Identifier": "CashBank",
+          "Module": "Settings",
+          "PermissionKey": "Settings:CashBank"
+        },
+        {
+          "Tablename": "dbo.Category",
+          "Identifier": "Category",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Category"
+        },
+        {
+          "Tablename": "dbo.Colour",
+          "Identifier": "Colour",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Colour"
+        },
+        {
+          "Tablename": "dbo.Customer",
+          "Identifier": "Customer",
+          "Module": "Sales",
+          "PermissionKey": "Sales:Customer"
+        },
+        {
+          "Tablename": "dbo.CustomerContact",
+          "Identifier": "CustomerContact",
+          "Module": "Sales",
+          "PermissionKey": "Sales:Customer"
+        },
+        {
+          "Tablename": "dbo.Flavour",
+          "Identifier": "Flavour",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Flavour"
+        },
+        {
+          "Tablename": "dbo.Invoice",
+          "Identifier": "Invoice",
+          "Module": "Sales",
+          "PermissionKey": "Sales:Invoice"
+        },
+        {
+          "Tablename": "dbo.InvoiceDetail",
+          "Identifier": "InvoiceDetail",
+          "Module": "Sales",
+          "PermissionKey": "Sales:Invoice"
+        },
+        {
+          "Tablename": "dbo.InvoicePayment",
+          "Identifier": "InvoicePayment",
+          "Module": "Sales",
+          "PermissionKey": "Sales:InvoicePayment"
+        },
+        {
+          "Tablename": "dbo.Product",
+          "Identifier": "Product",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Product"
+        },
+        {
+          "Tablename": "dbo.PurchaseOrder",
+          "Identifier": "PurchaseOrder",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:PurchaseOrder"
+        },
+        {
+          "Tablename": "dbo.PurchaseOrderDetail",
+          "Identifier": "PurchaseOrderDetail",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:PurchaseOrder"
+        },
+        {
+          "Tablename": "dbo.PurchaseTax",
+          "Identifier": "PurchaseTax",
+          "Module": "Settings",
+          "PermissionKey": "Settings:PurchaseTax"
+        },
+        {
+          "Tablename": "dbo.SalesChannel",
+          "Identifier": "SalesChannel",
+          "Module": "Sales",
+          "PermissionKey": "Sales:SalesChannel"
+        },
+        {
+          "Tablename": "dbo.SalesOrder",
+          "Identifier": "SalesOrder",
+          "Module": "Sales",
+          "PermissionKey": "Sales:SalesOrder"
+        },
+        {
+          "Tablename": "dbo.SalesOrderDetail",
+          "Identifier": "SalesOrderDetail",
+          "Module": "Sales",
+          "PermissionKey": "Sales:SalesOrder"
+        },
+        {
+          "Tablename": "dbo.SalesTax",
+          "Identifier": "SalesTax",
+          "Module": "Settings",
+          "PermissionKey": "Settings:SalesTax"
+        },
+        {
+          "Tablename": "dbo.Size",
+          "Identifier": "Size",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Size"
+        },
+        {
+          "Tablename": "dbo.Tenant",
+          "Identifier": "MyCompany",
+          "Module": "Settings",
+          "PermissionKey": "Settings:MyCompany"
+        },
+        {
+          "Tablename": "dbo.Uom",
+          "Identifier": "Uom",
+          "Module": "Merchandise",
+          "PermissionKey": "Merchandise:Uom"
+        },
+        {
+          "Tablename": "dbo.Vendor",
+          "Identifier": "Vendor",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:Vendor"
+        },
+        {
+          "Tablename": "dbo.VendorContact",
+          "Identifier": "VendorContact",
+          "Module": "Purchase",
+          "PermissionKey": "Purchase:VendorContact"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.51.8"
+  }
+}
